@@ -40,7 +40,7 @@ class Payments {
 	
 	private function sqlComplited4($name, $lastname) {
 		if(empty($name) && empty($lastname)){
-			/*.....suma płatności z pola $this->sql1 posortowana po polu 'Suma płatności'.....*/
+			$sqlComplited3 = $this->sql2. " ORDER BY `Suma płatności` ASC";
 		} else {
 			$sqlComplited4 = $this->sql2. "  WHERE contactFirstName = '".$name."' AND contactLastName = '".$lastname."' ORDER BY `Suma płatności`";
 		}
