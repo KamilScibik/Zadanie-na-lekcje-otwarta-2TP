@@ -5,6 +5,7 @@
     <title>Analiza sprzedaży</title>
     <link rel="stylesheet" href="style.css">
 </head>
+kamil
 <body>
 <?php
 	require_once(__DIR__.'/Payments.php');
